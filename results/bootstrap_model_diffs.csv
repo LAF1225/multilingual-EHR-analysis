@@ -1,0 +1,10 @@
+condition,model_a,model_b,drop_diff_a_minus_b,ci_low,ci_high,p_boot,p_holm
+en_bt,bert,bioclinical,0.0071,-0.0375,0.0501,0.754,0.9
+en_bt,bert,xlmr,0.041,-0.0057,0.0915,0.09,0.45
+en_bt,bioclinical,xlmr,0.0339,-0.0151,0.0834,0.174,0.696
+ur_roman,bert,bioclinical,0.0248,-0.0367,0.0934,0.428,0.9
+ur_roman,bert,xlmr,0.0587,-0.0022,0.1196,0.062,0.372
+ur_roman,bioclinical,xlmr,0.0339,-0.0353,0.0943,0.3,0.9
+ur,bert,bioclinical,-0.0931,-0.1464,-0.0457,0.0,0.0
+ur,bert,xlmr,0.3982,0.3245,0.4792,0.0,0.0
+ur,bioclinical,xlmr,0.4913,0.4298,0.5557,0.0,0.0

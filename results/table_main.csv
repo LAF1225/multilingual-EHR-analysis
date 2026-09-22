@@ -1,0 +1,13 @@
+model,condition,f1_mean,f1_std,rel_drop_mean,rel_drop_std,n_seeds
+bert,en,0.9276,,0.0,,1
+bert,en_bt,0.8673,,0.0649,,1
+bert,ur,0.1571,,0.8306,,1
+bert,ur_roman,0.1603,,0.8272,,1
+bioclinical,en,0.9619,,0.0,,1
+bioclinical,en_bt,0.9053,,0.0589,,1
+bioclinical,ur,0.0722,,0.9249,,1
+bioclinical,ur_roman,0.1896,,0.8029,,1
+xlmr,en,0.9051,,0.0,,1
+xlmr,en_bt,0.8823,,0.0252,,1
+xlmr,ur,0.5149,,0.4311,,1
+xlmr,ur_roman,0.2095,,0.7686,,1

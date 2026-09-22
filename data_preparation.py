@@ -1,6 +1,5 @@
 import json
 import re
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -20,6 +19,7 @@ SENT_SPLIT = re.compile(r"(?<=[.!?])\s+")
 def clean(text):
     text = str(text)
     text = re.sub(r":\s*,", ": ", text)       # MTSamples quirk: "HISTORY:,  The patient"
+    text = re.sub(r"\.,\s*", ". ", text)      # MTSamples quirk: "None.,DESCRIPTION"
     text = re.sub(r",\s*,", ", ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
@@ -62,9 +62,9 @@ def main():
     df["id"] = df.index.map(lambda i: f"doc{i:05d}")
     df = df[["id", "text", "label", "label_id"]]
 
-    train_val, test = train_test_split(df, test_size=0.20, stratify=df["label_id"],
+    train_val, test = train_test_split(df, test_size=0.30, stratify=df["label_id"],
                                        random_state=RANDOM_STATE)
-    train, val = train_test_split(train_val, test_size=0.125, stratify=train_val["label_id"],
+    train, val = train_test_split(train_val, test_size=0.143, stratify=train_val["label_id"],
                                   random_state=RANDOM_STATE)   # 0.125 * 0.8 = 10%
 
     train.to_csv(DATA / "train.csv", index=False)

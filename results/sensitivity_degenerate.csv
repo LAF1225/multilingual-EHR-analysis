@@ -1,0 +1,13 @@
+model,condition,all_notes,clean_only,n_clean
+bert,en,0.928,0.926,272
+bert,en_bt,0.867,0.872,272
+bert,ur,0.157,0.166,272
+bert,ur_roman,0.16,0.168,272
+bioclinical,en,0.962,0.962,272
+bioclinical,en_bt,0.905,0.918,272
+bioclinical,ur,0.072,0.068,272
+bioclinical,ur_roman,0.19,0.191,272
+xlmr,en,0.905,0.904,272
+xlmr,en_bt,0.882,0.892,272
+xlmr,ur,0.515,0.504,272
+xlmr,ur_roman,0.209,0.214,272

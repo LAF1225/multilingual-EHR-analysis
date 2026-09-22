@@ -1,0 +1,9 @@
+,coef,odds_ratio,p
+Intercept,-1.1909,0.304,0.0017
+C(model)[T.bioclinical],0.4738,1.6061,0.0323
+C(model)[T.xlmr],2.2068,9.0867,0.0043
+fertility,0.4541,1.5748,0.0877
+unk_rate,-0.089,0.9149,0.6273
+truncated,-0.5147,0.5977,0.0458
+term_pres_bt,-0.0358,0.9648,0.6324
+chrf,0.0817,1.0851,0.2867

@@ -1,0 +1,10 @@
+model,condition,rel_drop,ci_low,ci_high
+bert,en_bt,0.0649,0.0309,0.106
+bert,ur_roman,0.8272,0.7842,0.871
+bert,ur,0.8306,0.7823,0.8779
+bioclinical,en_bt,0.0589,0.0269,0.0938
+bioclinical,ur_roman,0.8029,0.7415,0.8613
+bioclinical,ur,0.9249,0.9147,0.9359
+xlmr,en_bt,0.0252,-0.0135,0.0658
+xlmr,ur_roman,0.7686,0.7206,0.8194
+xlmr,ur,0.4311,0.3719,0.4921

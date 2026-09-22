@@ -1,4 +1,4 @@
-"""Shared settings for every script. Change things here, not inside the scripts."""
+"""Shared settings for every script."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent

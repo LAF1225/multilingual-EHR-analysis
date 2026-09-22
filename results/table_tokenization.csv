@@ -1,0 +1,13 @@
+model,condition,fertility,unk_rate,truncated
+bert,en,1.866,0.0,0.553
+bert,en_bt,1.536,0.0,0.16
+bert,ur,3.261,0.062,0.99
+bert,ur_roman,2.774,0.0,0.98
+bioclinical,en,1.628,0.0,0.188
+bioclinical,en_bt,1.516,0.0,0.137
+bioclinical,ur,3.272,0.061,0.99
+bioclinical,ur_roman,2.772,0.0,0.98
+xlmr,en,1.769,0.0,0.423
+xlmr,en_bt,1.618,0.0,0.246
+xlmr,ur,1.558,0.0,0.71
+xlmr,ur_roman,2.26,0.0,0.966
