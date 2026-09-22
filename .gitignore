@@ -1,0 +1,16 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# MTS Data samples
+data/
+
+# Clinical models
+models/
+
+# Results
+results/predictions/
+
+# Cache files
+__pycache__/
