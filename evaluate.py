@@ -1,11 +1,3 @@
-"""DAY 5 (and DAY 9) - Run every fine-tuned model on every test condition.
-
-Saves the probabilities for each test note, so later analyses never need
-to run the models again.
-
-Run:  python day5_evaluate.py              (evaluates whatever models exist)
-      python day5_evaluate.py --overwrite  (redo existing predictions)
-"""
 import argparse
 
 import numpy as np

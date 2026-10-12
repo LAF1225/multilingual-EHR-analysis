@@ -1,13 +1,3 @@
-"""DAY 5 (and DAY 9) - Degradation, confidence intervals and significance tests.
-
-Outputs (in results/):
-  table_main.csv          mean +- std macro-F1 and relative degradation across seeds
-  bootstrap_degradation.csv  95% CI for each model's degradation (primary seed)
-  bootstrap_model_diffs.csv  is one model's degradation smaller than another's?
-  mcnemar_tests.csv       paired model comparisons, Holm-corrected
-
-Run:  python day5_stats.py
-"""
 from itertools import combinations
 
 import numpy as np

@@ -1,11 +1,3 @@
-"""DAY 4 - Translation quality checks.
-
-Compares original English with the back-translation (round-trip quality),
-saves per-note chrF (reused on Day 6), and exports a sheet for manual review.
-
-Run:  python day4_mt_quality.py
-      python day4_mt_quality.py --bertscore      (optional, slower; pip install bert-score)
-"""
 import argparse
 import json
 

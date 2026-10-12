@@ -1,12 +1,3 @@
-"""DAY 4 - Create the Roman Urdu test set from the Urdu translation.
-
-Run:  python day4_romanize.py
-
-Note for your paper: uroman is a rule-based romanizer. Urdu script usually
-omits short vowels, so the output looks more consonant-heavy than the Roman
-Urdu people type by hand (e.g. "mrz" rather than "mareez"). Describe it as
-"romanized Urdu (uroman)" and list this as a limitation.
-"""
 import pandas as pd
 
 from config import DATA

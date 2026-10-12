@@ -24,11 +24,11 @@ CONDITION_FILES = {
     "ur": "test_ur.csv",
 }
 
-SEEDS = [42, 43, 44]       # Week 1: use 42 only. Week 2: add 43 and 44.
-MAX_LEN = 256              # max subword tokens fed to each classifier
-MAX_WORDS = 150            # notes are cut to ~150 words (at a sentence boundary)
-N_CLASSES = 6              # number of specialties to keep
-RANDOM_STATE = 42          # for data splits and sampling
+SEEDS = [42, 43, 44]      
+MAX_LEN = 256              
+MAX_WORDS = 150           
+N_CLASSES = 6             
+RANDOM_STATE = 42          
 
 NLLB = "facebook/nllb-200-distilled-600M"
 

@@ -1,7 +1,3 @@
-"""DAY 11 - Paper figures.
-
-Run:  python day11_figures.py
-"""
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt

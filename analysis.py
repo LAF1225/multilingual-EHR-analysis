@@ -1,16 +1,3 @@
-"""DAY 6 - Why do the models degrade? (RQ2 and RQ3)
-
-Builds one row per (model, condition, test note) with:
-  fertility, unk_rate, truncated   - how the tokenizer treats the note
-  term_pres_bt                     - share of English medical terms that survive the round trip
-  term_pres_surface                - share of English medical terms kept verbatim in the Urdu text
-  chrf                             - round-trip translation quality (from Day 4)
-  confidence, correct              - from the saved predictions
-Then: calibration (ECE + reliability diagrams), a logistic regression,
-confusion matrices, and an error-coding sheet for manual analysis.
-
-Run:  python day6_analysis.py
-"""
 import json
 
 import matplotlib

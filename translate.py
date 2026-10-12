@@ -1,14 +1,3 @@
-"""DAY 4 - Machine-translate the test set with NLLB-200 (distilled 600M).
-
-Step 1, English -> Urdu (creates data/processed/test_ur.csv):
-  python day4_translate.py --direction en2ur
-Step 2, Urdu -> English back-translation (creates test_en_bt.csv):
-  python day4_translate.py --direction ur2en
-
-Translation is sentence by sentence and cached, so if it stops you can
-re-run the same command and it continues where it left off.
-Try --limit 5 first to check the output looks sensible.
-"""
 import argparse
 import json
 import re
